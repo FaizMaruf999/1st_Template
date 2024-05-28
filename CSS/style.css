@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ol,ul{
+    list-style: none;
+}
+
+#Interior_design{
+  
+}
+.navbar{
+   width: 300px;
+   height: 500px;
+   background-color: #fe6347;
+   display:inline-block;
+   float: left;
+   position: fixed;
+}
+.navbar .logo h2{
+    color:white;
+    font-size: 25px;
+    padding: 50px 0 30px 30px;
+    font-family: "REM", sans-serif;
+}
+.nav_item {
+    margin-top: 40px;
+}
+.nav_item ul li{
+    color: white;
+    font-size: 15px;
+    padding: 10px 30px;
+   font-weight: 600;
+   font-family: "REM", sans-serif;
+   cursor: pointer;
+}
+.nav_item ul li:hover{
+    background-color: white;
+    color: #070707;
+}
+.banner{
+    display: inline-block;
+   float: right;
+
+}
+.banner .header {
+    
+}
+.banner .header h1{
+    color: black;
+    font-family: "REM", sans-serif;
+    font-size: 35px;
+    padding: 50px 0 10px 0;
+}
+.banner .header h4{
+   color: #fc614a;
+   font-family: "REM", sans-serif;
+   font-size: 25px;
+   
+   
+}
+.banner span{
+    border-bottom:5px solid #fc614a;
+    color: #fc614a;
+    
+    border-radius:15%;
+    
+}
+.banner_img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+   margin-right: 35px;
+   margin-top: 20px;
+}
+.image_item img{
+   width: 450px;
+   height: 300px;
+   max-width:100%;
+ 
+   
+}
+.service{
+   width: 800px;
+}
+.service h2{
+    margin-top: 60px;
+    font-family: "REM", sans-serif;
+    color: #fc614a;
+    font-size:30px;
+}
+.service p{
+    margin-top: 25px;
+    font-family: "REM", sans-serif;
+    line-height: 20px;
+    font-size: 14px;
+}
+.designer{
+    width: 800px;
+}
+.designer h2{
+    margin-top: 60px;
+    font-family: "REM", sans-serif;
+    color: #fc614a;
+    font-size:30px;
+}
+.designer  p{
+    margin-top: 30px;
+    font-family: "REM", sans-serif;
+    line-height: 20px;
+    font-size: 14px;
+}
+.designer .text{
+    font-family: "REM", sans-serif;
+    font-weight: bold;
+}
+
+
+.portfolio{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    width:900px;
+    margin-top: 20px;
+}
+.portfolio img{
+    width: 300px;
+    height: 200px;
+    max-width:100%;
+}
+.gallery_contact{
+   background-color: #f1f1f1;
+   padding: 20px 0 20px 30px;
+}
+.gallery_contact h3{
+    font-family: "REM", sans-serif;
+    color: #070707;
+}
+.gallery_contact h6{
+    font-family: "REM", sans-serif;
+    color: #9f9f9f;
+    padding: 10px 0;
+    font-size: 13px;
+}
+.gallery_contact p{
+    font-family: "REM", sans-serif;
+    font-size: 13px;
+    color: #5a5a5a;
+}
+.packages .packages_heading{
+    width:900px ;
+    margin-top:50px ;
+}
+.packages .packages_heading h2{
+    font-family: "REM", sans-serif;
+    color: #fc614a;
+    font-size:30px;
+}
+.packages .packages_heading p{
+    margin-top: 20px;
+    font-family: "REM", sans-serif;
+    line-height: 20px;
+    font-size: 14px;
+}
+.packages_item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    margin-top: 20px;
+}
+.packages_item .packages_list{
+    width:430px;
+    max-width:100%;
+    background-color:#f1f1f1;
+}
+
+.packages_item .packages_list tr th{
+    border-bottom: 1px solid #dfdfdf;
+    background-color: #616161;
+    color: white;
+    padding: 25px;
+    font-family: "REM", sans-serif;
+    transition: 0.3s;
+}
+.packages_item .packages_list tr td{
+   text-align: center;
+   border-bottom: 1px solid #dfdfdf;
+   padding: 15px 0;
+   font-family: "REM", sans-serif;
+   font-size: 13px;
+}
+.packages_item .packages_list tr td button{
+   background-color: #ffffff;
+   padding: 10px 20px;
+   border: none;
+   font-family: "REM", sans-serif;
+   transition: 0.5s;
+   cursor: pointer;
+}
+.packages_item .packages_list tr td button:hover{
+    color: white;
+    background-color: #fc614a;
+    
+}
+.packages_item .packages_list tr th:hover{
+    background-color: #fc614a;
+    color: #070707;
+}
+.contact{
+    margin-top: 50px;
+}
+.contact h2{
+    font-family: "REM", sans-serif;
+    color: #fc614a;
+    font-size:30px;
+}
+.contact p{
+    margin-top: 20px;
+    font-family: "REM", sans-serif;
+  
+    font-size: 14px;
+}
+.font{
+    margin-top:20px ;
+}
+ .font #Fist{
+   width: 800px;
+   font-family: "REM", sans-serif;
+   padding: 8px 0;
+}
+.font #second{
+    width: 800px;
+    font-family: "REM", sans-serif;
+    margin-bottom:50px ;
+    border: none;
+    padding: 8px 0;
+    cursor: pointer;
+}
+.font #second:hover{
+    color: #ffffff;
+    background-color: #fc614a;
+}
